@@ -8,16 +8,15 @@ quizzes = [
 	},
 	{
 		"quiz_number": 2,
-		"name": "Klassika böcker",
-		"description": "Hur bra kan du dina klassiker?"
+		"name": "Största fotbollslagen",
+		"description": "Kn du dina lag?"
 	},
 	{
 		"quiz_number": 3,
-		"name": "Klassika böcker",
-		"description": "Hur bra kan du dina klassiker?"
+		"name": "Världens mest kända hackare",
+		"description": "Kan du din hackerhistoria?"
 	},
-
-	}]
+]
 
 def startpage(request):
 	return render(request, "start.html")
