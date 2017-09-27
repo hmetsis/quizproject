@@ -1,5 +1,24 @@
 from django.shortcuts import render
 
+quizzes = [
+	{
+		"quiz_number": 1,
+		"name": "Klassika böcker",
+		"description": "Hur bra kan du dina klassiker?"
+	},
+	{
+		"quiz_number": 2,
+		"name": "Klassika böcker",
+		"description": "Hur bra kan du dina klassiker?"
+	},
+	{
+		"quiz_number": 3,
+		"name": "Klassika böcker",
+		"description": "Hur bra kan du dina klassiker?"
+	},
+
+	}]
+
 def startpage(request):
 	return render(request, "start.html")
 
