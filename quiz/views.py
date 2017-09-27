@@ -19,15 +19,18 @@ quizzes = [
 ]
 
 def startpage(request):
-	return render(request, "start.html")
+		context = {
+			"quizzes": quizzes,
+		}
+		return render(request, "start.html", context)
 
 def quiz(request, quiz_number):
-	return render(request, "quiz.html")
+		return render(request, "quiz.html")
 
 def question(request, quiz_number, question_number):
-	return render(request, "question.html")
+		return render(request, "question.html")
 
 def completed(request, quiz_number):
-	return render(request, "results.html")
+		return render(request, "results.html")
 
 # Create your views here.

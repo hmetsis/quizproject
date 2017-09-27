@@ -19,7 +19,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm-4">
 				<p>
 					Quiz 1
@@ -35,7 +35,10 @@
 					Quiz 3
 				</p>
 			</div>
-		</div>
+		</div> -->
+		{% for quiz in quizzes%}
+			<p>{{ quiz.name}}</p>
+		{% endfor %}
 </body>
 <footer>
 	<p>By Hanna Metsis, Tjejer kodar i Barcelona 2017
