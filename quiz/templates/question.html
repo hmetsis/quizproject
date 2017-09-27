@@ -10,7 +10,7 @@
 
 	</head>
 	<body>
-		<h1>{{ question_number}}. {{ question }}</h1>
+		<h2>{{ question_number}}. {{ question }}</h2>
 		<form action="{% url 'completed_page' quiz_number %}" method="get">
 			<input type="radio" name="answer" value="true"> {{ answer1 }}<br>
 			<input type="radio" name="answer" value="false"> {{ answer2 }}<br>

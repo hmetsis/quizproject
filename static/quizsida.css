@@ -1,6 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
-	background: rgb(250,100,100);
-	font-family: arial;
-	margin-left: 100px;
-	max-width: 600px;
+	background-image: url("Elegant_Background-18.jpg");
+	max-width: 900px;
+}
+
+h1 {
+color: rgb(0, 0, 0);
+font-size: 70pt;
+font-family: Comfortaa;
+text-align: center;
+padding: 10%
+
+}
+
+h2 {
+color: rgb(0, 0, 0);
+font-size: 30pt;
+font-family: Comfortaa;
+text-align: center;
+padding: 10%
+
+}
+
+p {
+	font-family: Roboto;
+	font-size: 20pt;
+	text-align: center;
+}
+
+form {
+	font-family: Roboto;
+	font-size: 20pt;
+	text-align: center;
 }
