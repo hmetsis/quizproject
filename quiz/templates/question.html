@@ -11,12 +11,17 @@
 	</head>
 	<body>
 		<h1>{{ question_number}}. {{ question }}</h1>
-		<form>
+		<form action="{% url 'completed_page' quiz_number %}" method="get">
 			<input type="radio" name="answer" value="true"> {{ answer1 }}<br>
 			<input type="radio" name="answer" value="false"> {{ answer2 }}<br>
 			<input type="radio" name="answer" value="false"> {{ answer3 }}<br>
 			<input type="submit" value="Next question">
 		</form>
+
+
+	
+
+
 	<script scr="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script scr="/static/js/bootstrap.min.js"> </script>
 
