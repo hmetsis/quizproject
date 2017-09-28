@@ -11,11 +11,12 @@
 	</head>
 	<body>
 		<h2>{{ question_number}}. {{ question }}</h2>
-		<form action="{% url 'completed_page' quiz_number %}" method="get">
-			<input type="radio" name="answer" value="true"> {{ answer1 }}<br>
-			<input type="radio" name="answer" value="false"> {{ answer2 }}<br>
-			<input type="radio" name="answer" value="false"> {{ answer3 }}<br>
-			<input type="submit" value="Next question">
+		<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">
+			{% csrf_token %}
+			<input type="radio" name="answer" value="1"> {{ answer1 }}<br>
+			<input type="radio" name="answer" value="2"> {{ answer2 }}<br>
+			<input type="radio" name="answer" value="3"> {{ answer3 }}<br>
+			<button type="submit">Nästa fråga</button>
 		</form>
 
 
