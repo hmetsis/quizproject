@@ -19,11 +19,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<p>
-					Välj en quiz
-				</p>
+					<p class="valj">
+					Välj en quiz:
+					</p>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-sm-12">
 		<!-- <div class="row">
 			<div class="col-sm-4">
 				<p>
@@ -42,12 +44,19 @@
 			</div>
 		</div> -->
 		{% for quiz in quizzes %}
-			<p><a href="{% url 'quiz_page' quiz.quiz_number %}">
+			<p class="quizlista"><a href="{% url 'quiz_page' quiz.quiz_number %}">
 				{{ quiz.name}}
 			</a></p>
 		{% empty %}
 			<p><em>Det finns inga frågesporter ännu.</em></p>
 		{% endfor %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+					<img class="cat" src="static/cat.gif" alt="Meow" style="">
+			</div>
+		</div>
 </body>
 <footer>
 	Hanna Metsis, Tjejer kodar i Barcelona 2017

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 body {
 	
@@ -7,35 +10,84 @@ body {
 }
 
 h1 {
-color: rgb(0, 0, 0);
-font-size: 70pt;
-font-family: Comfortaa;
+color: rgb(244, 66, 185);
+font-size: 90px;
+font-family: Abril Fatface;
 text-align: center;
-padding: 10%
+padding: 40px
+
 
 }
 
 h2 {
-background-image: url("Elegant_Background-19.jpg");
-color: rgb(255, 255, 255);
-font-size: 30pt;
+color: rgb(90, 99, 221);
+font-size: 50px;
 font-family: Comfortaa;
 font-weight: bold;
 text-align: center;
-padding: 10%
+padding: 60px
 
+}
+
+h3 {
+color: rgb(90, 99, 221);
+font-size: 50px;
+font-family: Abril Fatface;
+text-align: center;
+padding: 60px
+
+}
+.valj {
+font-family: Comfortaa;
+font-size: 60px;
+padding: 10px
+
+}
+
+.quizlista {
+	font-family: Crimson Text;
+	font-size: 50px;
+	padding: 20px;
+	col: rgb(19, 216, 206);
+}
+
+.qdes {
+	font-family: Roboto;
+	font-size: 30px;
+	text-align: center;
+	padding: 30px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+	font-family: Crimson Text;
+	font-size: 50px;
+	padding: 20px;
+	color: rgb(19, 216, 206);
+	text-decoration: none;
+}
+
+a:hover {
+    color: rgb(18, 216, 156);
+    text-decoration: none;
 }
 
 p {
 	font-family: Roboto;
-	font-size: 20pt;
+	font-size: 20px;
 	text-align: center;
 }
 
 form {
 	font-family: Roboto;
-	font-size: 20pt;
+	font-size: 20px;
 	text-align: center;
+	padding: 30px;
 }
 
 footer {
@@ -44,6 +96,20 @@ footer {
   	bottom: 0;
   	left: 0;
   	text-align: center;
-  	font-size: 12pt;
+  	font-size: 12px;
 	font-family: Comfortaa;
   }
+
+  button {
+  background-color: rgb(181, 247, 163);
+  font-color: rgb(255, 255, 255);
+  font-family: Abril Fatface;
+  border: 0;
+  position: center;
+  width: 280px;
+  height: 280px;
+  padding: 40px 63px;
+  font-size: 40px;
+  line-height: 5.32;
+  border-radius: 140px;
+}

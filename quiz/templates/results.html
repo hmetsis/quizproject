@@ -10,10 +10,12 @@
 
 	</head>
 	<body>
-		<h2>You're done!</h2>
-		<p>
-			Your result was {{ correct}} out of {{ total }}
+		<h3>Du är klar!</h3>
+		<p class=qdes>
+			Du fick {{ correct}} rätt, av {{ total }} möjliga.
 		</p>
+		<br>
+		<br>
 
 		<p><a href="{% url 'start_page' %}">
 			Till startsidan
